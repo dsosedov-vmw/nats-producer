@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.dsosedov.natsproducer;
+
+option java_multiple_files = true;
+option java_package = "com.dsosedov.natsproducer.messages";
+option java_outer_classname = "MessageProto";
+
+message Message {
+    optional string text = 1;
+}

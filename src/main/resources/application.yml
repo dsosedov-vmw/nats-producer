@@ -1,0 +1,3 @@
+nats:
+  spring:
+    server: nats://localhost:4222
