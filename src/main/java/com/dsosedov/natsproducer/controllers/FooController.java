@@ -34,8 +34,6 @@ public class FooController {
 
         sc.publish("dataIn", stream.toByteArray());
 
-        sc.close();
-
         return new ResponseEntity(HttpStatus.ACCEPTED);
     }
 

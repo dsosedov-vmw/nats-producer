@@ -2,5 +2,10 @@ logging:
   level:
     com.dsosedov: TRACE
 
+nats:
+  url: nats://localhost:4222
+  clusterId: test-cluster
+  clientId: nats-producer
+
 server:
   port: 8081
