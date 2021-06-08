@@ -20,7 +20,7 @@ repositories {
 
 dependencies {
 	implementation group: 'com.google.protobuf', name: 'protobuf-java', version: '3.17.2'
-	implementation group: 'io.nats', name: 'nats-spring', version: '0.4.0'
+	implementation group: 'io.nats', name: 'java-nats-streaming', version: '2.2.3'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'

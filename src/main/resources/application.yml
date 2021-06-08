@@ -1,3 +1,6 @@
-nats:
-  spring:
-    server: nats://localhost:4222
+logging:
+  level:
+    com.dsosedov: TRACE
+
+server:
+  port: 8081
